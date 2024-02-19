@@ -18,12 +18,12 @@ for(let i = 0; i < linkCount; i++){
     linkGrid.appendChild(gridEmptyItem)
   } else {
     // links.push(`testLink${i+1}`)
-    let gridItem = document.createElement('a')
+    let gridItem = document.createElement('span')
     gridItem.classList.add('grid-item')
     gridItem.id = `link-to-${i+1}`
     // gridItem.href = links[i] //Popolni links so site linkoj, i odkomentiraj go ova
-    gridItem.href = `https://www.youtube.com/watch?v=ej-3_OyWXbA`
-    gridItem.target = "_blank"
+    //gridItem.href = `https://www.youtube.com/watch?v=ej-3_OyWXbA`
+    //gridItem.target = "_blank"
     linkGrid.appendChild(gridItem)
   }
 }
